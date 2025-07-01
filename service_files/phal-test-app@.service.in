@@ -2,6 +2,10 @@
 Description=phal test application
 
 [Service]
-RemainAfterExit=YES
+SyslogIdentifier=phal-test-app
+RemainAfterExit=no
 Type=oneshot
 ExecStart=/usr/bin/phal-test-app
+
+[Install]
+WantedBy=multi-user.target
