@@ -1,0 +1,7 @@
+[Unit]
+Description=phal test application
+
+[Service]
+RemainAfterExit=YES
+Type=oneshot
+ExecStart=/usr/bin/phal-test-app

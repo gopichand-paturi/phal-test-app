@@ -1,1 +1,1 @@
-# phal-test-app
+Test application to verify phal functionality
